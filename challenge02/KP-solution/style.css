@@ -13,9 +13,7 @@
  * (you probably should for this challenge)
  *
  */
-html {
-  font-size: 2rem;
-}
+
 * {
   box-sizing: border-box;
 }
@@ -24,27 +22,18 @@ body {
   margin: 0;
   font-family: sans-serif;
 }
-/* Result*/
-/* Remove width and max-width on container*/
+
 .container {
+  width: 80%;
+  max-width: 750px;
   margin: 0 auto;
+}
+.intro {
   background: #23424a;
   color: white;
   padding: 50px 0;
 }
-/* Added width, max-width and margin to center the text */
 
 .intro-content {
-  margin: 0 auto;
-  width: 80%;
-  max-width: 850px;
-  font-size: 1.2rem;
-}
-/* Added width, max-width and margin to center the text */
-
-.body-content {
-  margin: 0 auto;
-  width: 80%;
-  font-size: 1.2rem;
-  max-width: 850px;
+  width: 50%;
 }
