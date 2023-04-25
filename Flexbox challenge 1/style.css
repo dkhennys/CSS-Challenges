@@ -43,7 +43,6 @@ h1 {
 }
 
 .row {
-  /* display: flex => flex container */
   display: flex;
 
   gap: 50px;
@@ -52,7 +51,6 @@ h1 {
 }
 
 .col {
-  /* these are now flex items */
   width: 100%;
 }
 
